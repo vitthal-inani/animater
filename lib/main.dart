@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './ui/animatedwidget.dart';
 import 'package:animated_button/ui/animatedbutton.dart' as button;
 import 'package:animated_button/ui/animated_button.dart' as ab;
+import 'ui/sliderlist.dart';
 
 void main() => runApp(Myapp());
 
@@ -33,6 +34,7 @@ class Myapp extends StatelessWidget {
                 borderradius: 40,
               ),
             ),
+            sliders(),
           ],
         )),
       ),

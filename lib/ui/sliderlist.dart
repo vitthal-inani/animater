@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sliders/Cards.dart';
+import 'package:animated_button/ui/Cards.dart';
 
 class sliders extends StatefulWidget {
   @override
